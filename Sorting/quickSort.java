@@ -1,14 +1,20 @@
 /*
-At each iteration quick sort considers arr[0] as pivot element places 
-all arr[i] to the left of pivot where arr[i]<=pivot and all arr[j] right to pivot where
-arr[j]>=pivot 
+
+STEPS:
+    -> Consider arr[0] as pivot element
+    -> place pivot element at it's correct position
+    -> place all arr[i] to left of pivot where i<pivotIndex & arr[i]<=pivot
+    -> place all arr[j] to right of pivot where j>pivotIndex & arr[j]>=pivot
+
+and then just like merge sort it divides the array into two halves & repeat
+above steps
 
  pivot can be considered any of the following:
     - arr[0]
     - arr[n-1] (n: length of array)
     - arr[mid] (middle element)   
 
-    T.C: O(nlogn) 
+    T.C: O(nlogn) -> same as merge sort
     S.C: O(1) no extra space is needed
 
     Stable: No
