@@ -1,2 +1,2 @@
 # DSA
-Contains DSA concepts with important problems
+Contains DSA concepts with important problems and daily practice questions
